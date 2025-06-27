@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hero Section | GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+  </head>
+
+  <body class="bg-neutral-200">
+    <main class="w-full min-h-screen p-4 md:p-6 lg:p-8 lg:h-screen">
+      <section class="w-full h-full bg-neutral-50 shadow-xl rounded-lg">
+        <div
+          class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-20 px-6 md:px-12 py-8">
+          <!-- Left content -->
+          <div
+            class="lg:basis-2/5 flex flex-col justify-center  text-center  lg:text-left">
+            <h2
+              class="text-[clamp(1.75rem,4vw,3.75rem)] text-neutral-900 font-semibold mb-6 md:mb-8">
+              Premium abstract images
+            </h2>
+
+            <ul
+              class="text-[clamp(0.875rem,2.5vw,1.25rem)] text-neutral-600 space-y-4 max-w-full mb-4">
+              <li class="flex items-center justify-start gap-x-2">
+                <ion-icon class="size-5 text-indigo-700"
+                  name="checkmark-circle-outline"></ion-icon>
+                <span class="break-words">Minimum 5k images</span>
+              </li>
+              <li class="flex items-center justify-start gap-x-2">
+                <ion-icon class="size-5 text-indigo-700"
+                  name="checkmark-circle-outline"></ion-icon>
+                <span class="break-words">Various format variants
+                  available</span>
+              </li>
+              <li class="flex items-center justify-start gap-x-2">
+                <ion-icon class="size-5 text-indigo-700"
+                  name="checkmark-circle-outline"></ion-icon>
+                <span class="break-words">Editable and scalable
+                  resolution</span>
+              </li>
+            </ul>
+
+            <!-- Buttons -->
+            <div
+              class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
+              <a
+                class="rounded px-4 py-2 text-center border border-neutral-200 shadow-lg bg-white hover:bg-neutral-100 transition duration-300"
+                href="#">
+                Learn more
+              </a>
+              <a
+                class="rounded px-4 py-2  text-center bg-indigo-700 hover:bg-indigo-800 text-white shadow-lg transition duration-300"
+                href="#">
+                See pricing
+              </a>
+            </div>
+          </div>
+
+          <!-- Right image -->
+          <div class="lg:basis-3/5 flex justify-center items-center">
+            <img
+              src="img/prism.png"
+              alt="picture"
+              class="w-full max-w-[696px] h-auto rounded" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
